@@ -15,9 +15,6 @@
 	<haxelib name="hxcpp-debug-server" if="debug" />
 	<haxedef name="HXCPP_STACK_TRACE" if="debug" />
 	<haxedef name="analyzer-optimize" />
-	<haxedef name="HXCPP_MINGW" if="windows" />
-	<haxedef name="no_shared_libs" if="windows" />
-	<haxedef name="toolchain" value="mingw" if="windows" />
 	<icon path="logo.png" />
 	<haxeflag name="-dce" value="full" />
 	<assets path="assets" />
