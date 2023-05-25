@@ -1,0 +1,4228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+    <Object type="0xa00" id="Beginner Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x00</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Starter</Tier>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Sapphire Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>330</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa01" id="Novice Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x01</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Emerald Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>360</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa02" id="Apprentice Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x02</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Amethyst Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>400</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa03" id="Adept Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x03</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Sapphire Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>450</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa04" id="Expert Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x04</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Emerald Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>500</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa0b" id="Novice Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x11</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa0c" id="Apprentice Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x12</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa0d" id="Adept Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x13</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa0e" id="Expert Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x14</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="6">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa15" id="Novice Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x21</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa16" id="Apprentice Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x22</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="7">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa17" id="Adept Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x23</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="15">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="9">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa18" id="Expert Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x24</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="18">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="11">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa2a" id="Beginner Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x40</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Starter</Tier>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Sapphire Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>150</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa2b" id="Novice Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x41</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Emerald Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>180</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa2c" id="Apprentice Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x42</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Amethyst Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>220</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa2d" id="Adept Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x43</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Sapphire Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>260</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa2e" id="Expert Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x44</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Emerald Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>300</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa35" id="Beginner Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x50</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Starter</Tier>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Sapphire Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>70</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa36" id="Novice Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x51</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Emerald Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>85</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa37" id="Apprentice Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x52</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Small Amethyst Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>95</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa38" id="Adept Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x53</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Sapphire Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>105</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa39" id="Expert Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x54</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Emerald Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>115</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa40" id="Novice Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x61</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="50">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa41" id="Apprentice Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x62</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="70">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa42" id="Adept Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x63</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="100">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa43" id="Expert Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x64</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="130">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa4a" id="Beginner Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x70</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Starter</Tier>
+        <Activate stat="22" amount="15" duration="3">StatBoostSelf</Activate>
+        <Activate amount="80">Heal</Activate>
+        <Cooldown>2.5</Cooldown>
+        <MpCost>80</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa4b" id="Novice Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x71</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <Activate stat="22" amount="15" duration="3.5">StatBoostSelf</Activate>
+        <Activate amount="100">Heal</Activate>
+        <Cooldown>3</Cooldown>
+        <MpCost>90</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa4c" id="Apprentice Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x72</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <Activate stat="22" amount="16" duration="4">StatBoostSelf</Activate>
+        <Activate amount="120">Heal</Activate>
+        <Cooldown>3.5</Cooldown>
+        <MpCost>100</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa4d" id="Adept Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x73</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <Activate stat="22" amount="17" duration="4.5">StatBoostSelf</Activate>
+        <Activate amount="140">Heal</Activate>
+        <Cooldown>4</Cooldown>
+        <MpCost>110</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa4e" id="Expert Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x74</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="22" amount="18" duration="5">StatBoostSelf</Activate>
+        <Activate amount="160">Heal</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>120</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa55" id="Beginner Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x80</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Starter</Tier>
+        <Activate amount="75" radius="3.5" totalDamage="200">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>70</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa56" id="Novice Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x81</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="90" radius="3.75" totalDamage="210">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>80</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa57" id="Apprentice Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x82</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="115" radius="4" totalDamage="220">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>100</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa58" id="Adept Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x83</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="140" radius="4.25" totalDamage="240">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>120</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa59" id="Expert Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x84</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="165" radius="4.5" totalDamage="260">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>140</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa60" id="Beginner Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x90</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Starter</Tier>
+        <Activate targetPlayers="true" effect="Healing, +5 DEF" amount="2" radius="5" duration="5" objType="0x107">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>65</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa61" id="Novice Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x91</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +7 DEF" amount="2.25" radius="5" duration="5" objType="0x108">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>70</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa62" id="Apprentice Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x92</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +9 DEF" amount="2.5" radius="5" duration="5" objType="0x109">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa63" id="Adept Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x93</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +11 DEF" amount="2.75" radius="5" duration="5" objType="0x10a">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>80</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa64" id="Expert Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x94</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +13 DEF" amount="3" radius="5" duration="5" objType="0x113">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>85</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa76" id="Beginner Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb0</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Starter</Tier>
+        <Activate duration="3" amount="1.15">DamageMultiplier</Activate>
+        <Activate duration="3" amount="1.05">HitMultiplier</Activate>
+        <Cooldown>4</Cooldown>
+        <MpCost>50</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa77" id="Novice Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb1</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <Activate duration="3.5" amount="1.2">DamageMultiplier</Activate>
+        <Activate duration="3.5" amount="1.1">HitMultiplier</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>55</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa78" id="Apprentice Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb2</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <Activate duration="4" amount="1.25">DamageMultiplier</Activate>
+        <Activate duration="4" amount="1.15">HitMultiplier</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>40</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa79" id="Adept Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb3</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <Activate duration="4.5" amount="1.3">DamageMultiplier</Activate>
+        <Activate duration="4.5" amount="1.2">HitMultiplier</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>45</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa7a" id="Expert Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb4</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="5" amount="1.35">DamageMultiplier</Activate>
+        <Activate duration="5" amount="1.25">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>50</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa81" id="Beginner Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc0</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Starter</Tier>
+        <Activate duration="4" amount="0.97">HitMultiplier</Activate>
+        <Activate duration="5.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>65</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa82" id="Novice Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc1</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <Activate duration="4.5" amount="0.94">HitMultiplier</Activate>
+        <Activate duration="6" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>6.5</Cooldown>
+        <MpCost>70</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaa3" id="Apprentice Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc2</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <Activate duration="5" amount="0.91">HitMultiplier</Activate>
+        <Activate duration="6.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>7</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa83" id="Adept Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc3</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <Activate duration="5.5" amount="0.88">HitMultiplier</Activate>
+        <Activate duration="7" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>7.5</Cooldown>
+        <MpCost>80</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa84" id="Expert Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc4</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="6" amount="0.85">HitMultiplier</Activate>
+        <Activate duration="7.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>8</Cooldown>
+        <MpCost>85</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa8b" id="Beginner Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd0</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Starter</Tier>
+        <Activate amount="3">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>60</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa8c" id="Novice Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd1</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="3.5">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Cooldown>6.5</Cooldown>
+        <MpCost>65</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa8d" id="Apprentice Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd2</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="4">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Cooldown>7</Cooldown>
+        <MpCost>70</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa8e" id="Adept Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd3</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="4">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="6" duration="4">StatBoostSelf</Activate>
+        <Cooldown>7</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa8f" id="Expert Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd4</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="4.5">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="9" duration="4.5">StatBoostSelf</Activate>
+        <Cooldown>7.5</Cooldown>
+        <MpCost>80</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa96" id="Beginner Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe0</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Starter</Tier>
+        <Activate totalDamage="700" duration="5" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>3</Cooldown>
+        <MpCost>30</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa97" id="Novice Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe1</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <Activate totalDamage="800" duration="5.5" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>3.5</Cooldown>
+        <MpCost>35</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa98" id="Apprentice Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe2</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <Activate totalDamage="900" duration="6" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>4</Cooldown>
+        <MpCost>40</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa99" id="Adept Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe3</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <Activate totalDamage="1000" duration="6.5" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>45</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xa9a" id="Expert Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe4</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <Activate totalDamage="1100" duration="7" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>50</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaa1" id="Health Vial">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x00</Index>
+        </Texture>
+        <Tier>Starter</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="100">Heal</Activate>
+        <Consumable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaa2" id="Magic Vial">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x01</Index>
+        </Texture>
+        <Tier>Starter</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="100">Magic</Activate>
+        <Consumable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaa4" id="Strength Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x02</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="20" amount="1">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaa5" id="Defense Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x03</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="21" amount="1">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaa6" id="Speed Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x04</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="22" amount="1">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaa7" id="Sight Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x05</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="26" amount="1">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaa8" id="Stamina Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x06</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="27" amount="1">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaa9" id="Luck Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x07</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="28" amount="1">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaaa" id="Penetration Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x08</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="30" amount="1">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaab" id="Life Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x09</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="0" amount="5">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaac" id="Mana Fragment">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x0a</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Activate stat="3" amount="5">IncrementStat</Activate>
+        <Consumable />
+        <BagType>2</BagType>
+    </Object>
+    <Object type="0xaad" id="Novice Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf1</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier I-</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="20" amount="4">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaae" id="Apprentice Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf2</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier I</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaaf" id="Adept Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf3</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier I+</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="20" amount="7">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xabb" id="Expert Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf4</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier II-</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="20" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="9">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xab0" id="Stone Circlet">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf0</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="20" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="9">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab1" id="Jungle Pillar">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x90</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <Activate targetPlayers="true" effect="+10 PEN, +5 SPD" amount="3.5" radius="8" duration="8" objType="0x10e">Totem</Activate>
+        <Cooldown>12</Cooldown>
+        <MpCost>95</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab2" id="Vine Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x40</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <NumProjectiles>2</NumProjectiles>
+        <ArcGap>6</ArcGap>
+        <Projectile>
+            <ObjectId>Vine Shot</ObjectId>
+            <Speed>110</Speed>
+            <LifetimeMS>800</LifetimeMS>
+            <Damage>140</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab3" id="Nature Elixir">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x70</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <Activate effect="Healing" duration="6">ConditionEffectSelf</Activate>
+        <Activate stat="27" amount="6" duration="6">StatBoostSelf</Activate>
+        <Activate amount="100">Heal</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>90</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab4" id="Bone Sceptre">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x50</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1.2</RateOfFire>
+        <Projectile>
+            <ObjectId>Bone Shot</ObjectId>
+            <Speed>170</Speed>
+            <LifetimeMS>570</LifetimeMS>
+            <Damage>105</Damage>
+            <Amplitude>0.6</Amplitude>
+        </Projectile>
+        <NumProjectiles>2</NumProjectiles>
+        <ArcGap>7</ArcGap>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab5" id="Fang Amulet">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf1</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="30" amount="15">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="0" amount="-40">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab6" id="Ruptured Ribcage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x60</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="0" amount="50">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="-2">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="-2">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab7" id="Titanic Timepiece">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xd0</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="3">Clock</Activate>
+        <Activate stat="0" amount="150" duration="5">StatBoostSelf</Activate>
+        <Cooldown>9</Cooldown>
+        <MpCost>110</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab8" id="Hydra Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x10</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="30" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xab9" id="Chainmail Cuirass">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x20</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="21" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="4">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xaba" id="Rapier of Rage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x00</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1.5</RateOfFire>
+        <Projectile>
+            <ObjectId>Rage Shot</ObjectId>
+            <Speed>200</Speed>
+            <LifetimeMS>270</LifetimeMS>
+            <Damage>310</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xabc" id="Sobek's Shield">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xc0</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="4" amount="0.91">HitMultiplier</Activate>
+        <Activate duration="9" effect="Targeted">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="10" duration="9">StatBoostSelf</Activate>
+        <Cooldown>9.5</Cooldown>
+        <MpCost>90</MpCost>
+        <BagType>3</BagType>
+    </Object>c
+    <Object type="0xabd" id="Vita Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x21</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="0" amount="90">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xabe" id="Flask of Flames">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x71</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="22" amount="12" duration="5">StatBoostSelf</Activate>
+        <Activate stat="20" amount="12" duration="5">StatBoostSelf</Activate>
+        <Cooldown>7</Cooldown>
+        <MpCost>85</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xabf" id="Crocodile Charm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf2</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac0" id="Champion's Chopper">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x01</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>1.3</RateOfFire>
+        <Projectile>
+            <ObjectId>Chopper Slash</ObjectId>
+            <Speed>110</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>370</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac1" id="Shamanic Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x51</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>0.69</RateOfFire>
+        <Projectile>
+            <ObjectId>Shaman Fire</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>750</LifetimeMS>
+            <Damage>250</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac2" id="Heroic Headgear">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xb0</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <Activate duration="6" amount="1.3">DamageMultiplier</Activate>
+        <Cooldown>7</Cooldown>
+        <HpCost>80</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac3" id="Rune of Ruin">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x80</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="30" radius="5" totalDamage="100">Bloodstone</Activate>
+        <Activate duration="6" amount="1.15">DamageMultiplier</Activate>
+        <Cooldown>6.5</Cooldown>
+        <HpCost>90</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac4" id="Posh Pen">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xe0</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>2</TierReq>
+        <Activate totalDamage="1800" duration="4" radius="4" objType="0x1005">Cage</Activate>
+        <Cooldown>1.5</Cooldown>
+        <MpCost>40</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac5" id="Brimstone Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xc1</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <Activate stat="0" amount="70" duration="5">StatBoostSelf</Activate>
+        <Activate duration="5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>70</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac6" id="Torrid Thrownaxe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x41</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <RateOfFire>0.65</RateOfFire>
+        <Projectile>
+            <ObjectId>TT Shot</ObjectId>
+            <Speed>220</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <MultiHit />
+            <Damage>660</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac7" id="Sand Shooter">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x42</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.1</RateOfFire>
+        <Projectile>
+            <ObjectId>Sand Blast</ObjectId>
+            <Speed>200</Speed>
+            <LifetimeMS>360</LifetimeMS>
+            <Damage>145</Damage>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>7</ArcGap>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac8" id="Dusty Disguise">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x11</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="11">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xac9" id="Emblem of Elders">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x91</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +10 STR" amount="3.5" radius="5" duration="7" objType="0x11e">Totem</Activate>
+        <Cooldown>9</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xaca" id="Scrounger's Spear">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x02</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>0.81</RateOfFire>
+        <Projectile>
+            <ObjectId>Scrounger Shot</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>240</LifetimeMS>
+            <Damage>720</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xacb" id="Tier II Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x33</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="2">TierIncrease</Activate>
+        <Consumable />
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xacc" id="Tier III Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x34</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="3">TierIncrease</Activate>
+        <Consumable />
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xacd" id="Tier IV Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x35</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="4">TierIncrease</Activate>
+        <Consumable />
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xace" id="Tier V Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x36</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="5">TierIncrease</Activate>
+        <Consumable />
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xacf" id="Tier VI Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x37</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="6">TierIncrease</Activate>
+        <Consumable />
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad0" id="Tier VII Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x38</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="7">TierIncrease</Activate>
+        <Consumable />
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad1" id="Tier VIII Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x39</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="8">TierIncrease</Activate>
+        <Consumable />
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad2" id="Staff of Solstice">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x52</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>0.8</RateOfFire>
+        <Projectile>
+            <ObjectId>Solstice Shot</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>1020</LifetimeMS>
+            <Damage>420</Damage>
+            <Amplitude>0.1</Amplitude>
+            <Boomerang/>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad3" id="Slimesilk Mantle">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x61</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="20" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="3">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad4" id="Slime Heart">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x81</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <TierReq>1</TierReq>
+        <Tier>Rare</Tier>
+        <Activate amount="50" radius="5" totalDamage="350">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>50</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad5" id="Soulbind Stopwatch">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xd1</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <Activate amount="5.5">Clock</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>55</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad6" id="Spiritfire Lantern">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xe1</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <TierReq>1</TierReq>
+        <Tier>Rare</Tier>
+        <Activate totalDamage="800" duration="6" radius="10" objType="0x1004">Cage</Activate>
+        <Cooldown>4</Cooldown>
+        <MpCost>40</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad7" id="Oozing Jar">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x72</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <Activate stat="22" amount="-5" duration="5.5">StatBoostSelf</Activate>
+        <Activate stat="21" amount="15" duration="5.5">StatBoostSelf</Activate>
+        <Activate stat="26" amount="15" duration="5.5">StatBoostSelf</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad8" id="Slimy Crown">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf3</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Rare</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="28" amount="15">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xad9" id="Reptile Repeater">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x43</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.1</RateOfFire>
+        <Projectile>
+            <ObjectId>Reptile Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>360</LifetimeMS>
+            <Damage>450</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xada" id="Magical Metronome">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xd2</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="5.5">Clock</Activate>
+        <ManaShield>10</ManaShield>
+        <Cooldown>4</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xadb" id="Volcanic Veil">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x62</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="30" amount="22">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="6">IncrementStat</ActivateOnEquip>
+        <Thorns>250</Thorns>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xadc" id="Pain Pendant">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf4</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>1</TierReq>
+        <ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="7">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>
+        <Thorns>500</Thorns>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xade" id="Midnight Mail">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x22</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="5">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+        <Thorns>500</Thorns>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xadf" id="Molten Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf5</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="0" amount="90">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="27" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="28" amount="5">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xae0" id="Burning Blade">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x03</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.2</RateOfFire>
+        <Projectile>
+            <ObjectId>Burning Blast</ObjectId>
+            <Speed>140</Speed>
+            <LifetimeMS>260</LifetimeMS>
+            <Damage>400</Damage>
+            <ArmorPiercing/>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xae1" id="Blood Core">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x82</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <TierReq>1</TierReq>
+        <Tier>Epic</Tier>
+        <Activate amount="1300" radius="3" totalDamage="150">Bloodstone</Activate>
+        <Cooldown>9</Cooldown>
+        <HpCost>50</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xae2" id="Sanguine Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x92</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <TierReq>1</TierReq>
+        <Tier>Rare</Tier>
+        <Activate targetPlayers="true" effect="+10 STA, +5 DEF" amount="3.5" radius="5" duration="5" objType="0x123">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>95</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xae3" id="Shadow Scout Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>0</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0342">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xae4" id="Lich Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>18</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0343">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xae5" id="Molten Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>36</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0344">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xae6" id="Druid Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>54</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0345">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xae7" id="Demonic Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>72</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0346">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xae8" id="Knightly Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>90</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0347">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xae9" id="Nanotech Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>108</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0348">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xaea" id="Arcadia Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>126</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0349">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xaeb" id="Forest Wisp Unlocker">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>skinItems</Sheet>
+            <Index>144</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x034a">UnlockSkin</Activate>
+        <Consumable />
+    </Object>
+    <Object type="0xaec" id="Grand Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x05</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Amethyst Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>530</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaed" id="Illustrious Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x06</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Sapphire Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>560</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaee" id="Sublime Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x07</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Emerald Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>590</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaef" id="Master Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x08</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Amethyst Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>610</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf0" id="Prime Sword">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x09</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Prime Slash</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>630</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf1" id="Grand Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x15</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="14">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="7">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf2" id="Illustrious Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x16</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="15">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="8">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf3" id="Sublime Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x17</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="16">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="9">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf4" id="Master Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x18</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="17">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="9">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf5" id="Prime Hide">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x19</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="18">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="9">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf6" id="Grand Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x25</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="20">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="12">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf7" id="Illustrious Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x26</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="22">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="13">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf8" id="Sublime Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x27</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="24">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="14">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaf9" id="Master Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x28</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="25">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="14">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xafa" id="Prime Vest">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x29</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="26">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="14">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xafb" id="Grand Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x45</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Amethyst Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>330</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xafc" id="Illustrious Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x46</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Sapphire Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>360</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xafd" id="Sublime Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x47</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Emerald Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>390</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xafe" id="Master Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x48</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Amethyst Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>410</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xaff" id="Prime Bow">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x49</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Prime Arrow</ObjectId>
+            <Speed>180</Speed>
+            <LifetimeMS>440</LifetimeMS>
+            <MultiHit />
+            <Damage>430</Damage>
+        </Projectile>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb00" id="Grand Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x55</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Medium Amethyst Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>130</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb01" id="Illustrious Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x56</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Sapphire Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>150</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb02" id="Sublime Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x57</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Emerald Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>170</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb03" id="Master Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x58</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Large Amethyst Bolt</ObjectId>
+            <Speed>190</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>170</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb04" id="Prime Staff">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x59</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Prime Bolt</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <MagicDamage>220</MagicDamage>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>4</Frequency>
+            <Acceleration>-90</Acceleration>
+            <AccelerationDelay>200</AccelerationDelay>
+            <SpeedClamp>70</SpeedClamp>
+        </Projectile>
+        <NumProjectiles>4</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb05" id="Grand Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x65</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="145">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb06" id="Illustrious Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x66</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="160">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb07" id="Sublime Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x67</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="175">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb08" id="Master Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x68</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="185">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb09" id="Prime Robe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x69</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="200">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb0a" id="Grand Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x75</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="22" amount="19" duration="5">StatBoostSelf</Activate>
+        <Activate amount="170">Heal</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>120</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb0b" id="Illustrious Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x76</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="22" amount="20" duration="5">StatBoostSelf</Activate>
+        <Activate amount="180">Heal</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>120</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb0c" id="Sublime Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x77</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <Activate stat="22" amount="21" duration="5">StatBoostSelf</Activate>
+        <Activate amount="190">Heal</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>120</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb0d" id="Master Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x78</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <Activate stat="22" amount="21" duration="5">StatBoostSelf</Activate>
+        <Activate amount="200">Heal</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>120</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb0e" id="Prime Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x79</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <Activate stat="22" amount="21" duration="5">StatBoostSelf</Activate>
+        <Activate amount="210">Heal</Activate>
+        <Cooldown>4.5</Cooldown>
+        <MpCost>120</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb0f" id="Grand Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x85</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="180" radius="4.5" totalDamage="275">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>150</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb10" id="Illustrious Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x86</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="195" radius="4.5" totalDamage="290">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>160</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb11" id="Sublime Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x87</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <Activate amount="210" radius="4.5" totalDamage="305">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>170</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb12" id="Master Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x88</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <Activate amount="220" radius="4.5" totalDamage="315">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>175</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb13" id="Prime Bloodstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x89</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <Activate amount="230" radius="4.5" totalDamage="325">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>180</HpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb14" id="Grand Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x95</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +14 DEF" amount="3" radius="5" duration="5" objType="0x124">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>90</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb15" id="Illustrious Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x96</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +15 DEF" amount="3" radius="5" duration="5" objType="0x125">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>95</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb16" id="Sublime Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x97</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +16 DEF" amount="3" radius="5" duration="5" objType="0x126">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>100</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb17" id="Master Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x98</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +17 DEF" amount="3" radius="5" duration="5" objType="0x127">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>105</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb18" id="Prime Totem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0x99</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <Activate targetPlayers="true" effect="Healing, +18 DEF" amount="3" radius="5" duration="5" objType="0x128">Totem</Activate>
+        <Cooldown>5.5</Cooldown>
+        <MpCost>110</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb19" id="Grand Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb5</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="5" amount="1.38">DamageMultiplier</Activate>
+        <Activate duration="5" amount="1.28">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>55</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb1a" id="Illustrious Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb6</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="5" amount="1.41">DamageMultiplier</Activate>
+        <Activate duration="5" amount="1.31">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>60</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb1b" id="Sublime Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb7</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <Activate duration="5" amount="1.44">DamageMultiplier</Activate>
+        <Activate duration="5" amount="1.34">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>65</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb1c" id="Master Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb8</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <Activate duration="5" amount="1.46">DamageMultiplier</Activate>
+        <Activate duration="5" amount="1.36">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>70</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb1d" id="Prime Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xb9</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <Activate duration="5" amount="1.48">DamageMultiplier</Activate>
+        <Activate duration="5" amount="1.38">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb1e" id="Grand Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc5</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="6" amount="0.83">HitMultiplier</Activate>
+        <Activate duration="7.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>8</Cooldown>
+        <MpCost>90</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb1f" id="Illustrious Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc6</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="6" amount="0.81">HitMultiplier</Activate>
+        <Activate duration="7.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>8</Cooldown>
+        <MpCost>95</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb20" id="Sublime Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc7</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <Activate duration="6" amount="0.79">HitMultiplier</Activate>
+        <Activate duration="7.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>8</Cooldown>
+        <MpCost>100</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb21" id="Master Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc8</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <Activate duration="6" amount="0.77">HitMultiplier</Activate>
+        <Activate duration="7.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>8</Cooldown>
+        <MpCost>105</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb22" id="Prime Bulwark">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xc9</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <Activate duration="6" amount="0.75">HitMultiplier</Activate>
+        <Activate duration="7.5" effect="Targeted">ConditionEffectSelf</Activate>
+        <Cooldown>8</Cooldown>
+        <MpCost>110</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb23" id="Grand Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd5</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="4.5">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="11" duration="4.5">StatBoostSelf</Activate>
+        <Cooldown>7.5</Cooldown>
+        <MpCost>85</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb24" id="Illustrious Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd6</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="4.5">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="13" duration="4.5">StatBoostSelf</Activate>
+        <Cooldown>7.5</Cooldown>
+        <MpCost>90</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb25" id="Sublime Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd7</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <Activate amount="4.5">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="15" duration="4.5">StatBoostSelf</Activate>
+        <Cooldown>7.5</Cooldown>
+        <MpCost>95</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb26" id="Master Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd8</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <Activate amount="4.5">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="16" duration="4.5">StatBoostSelf</Activate>
+        <Cooldown>7.5</Cooldown>
+        <MpCost>100</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb27" id="Prime Clock">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xd9</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <Activate amount="4.5">Clock</Activate>
+        <Activate effect="Invulnerable" duration="1">ConditionEffectSelf</Activate>
+        <Activate stat="22" amount="17" duration="4.5">StatBoostSelf</Activate>
+        <Cooldown>7.5</Cooldown>
+        <MpCost>105</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb28" id="Grand Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe5</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <Activate totalDamage="1160" duration="7" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>55</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb29" id="Illustrious Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe6</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <Activate totalDamage="1220" duration="7" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>60</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb2a" id="Sublime Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe7</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <Activate totalDamage="1280" duration="7" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>65</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb2b" id="Master Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe8</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <Activate totalDamage="1320" duration="7" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>70</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb2c" id="Prime Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xe9</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <Activate totalDamage="1360" duration="7" radius="7" objType="0x1000">Cage</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb2d" id="Grand Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf5</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier II</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="20" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb2e" id="Illustrious Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf6</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier II+</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="20" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="3">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb2f" id="Sublime Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf7</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier III-</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="20" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="4">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb30" id="Master Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf8</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier III</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="20" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb31" id="Prime Ring">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xf9</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Tier III+</Tier>
+        <TierReq>3</TierReq>
+        <ActivateOnEquip stat="20" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="6">IncrementStat</ActivateOnEquip>
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb32" id="Greater Health Vial">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x25</Index>
+        </Texture>
+        <Tier>Starter</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="200">Heal</Activate>
+        <Consumable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb33" id="Greater Magic Vial">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x26</Index>
+        </Texture>
+        <Tier>Starter</Tier>
+        <SlotType>10</SlotType>
+        <Activate amount="200">Magic</Activate>
+        <Consumable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb34" id="Crown Cove Key">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x27</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0706">OpenPortal</Activate>
+        <Consumable />
+        <Untradable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb35" id="Slimy Ruins Key">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x28</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x070b">OpenPortal</Activate>
+        <Consumable />
+        <Untradable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb36" id="Crimson Chasm Key">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x29</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0708">OpenPortal</Activate>
+        <Consumable />
+        <Untradable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb37" id="Dusty Dune Key">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x2a</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x0709">OpenPortal</Activate>
+        <Consumable />
+        <Untradable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb38" id="Elemental Sanctum Key">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x2b</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x070e">OpenPortal</Activate>
+        <Consumable />
+        <Untradable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb39" id="Lost Laboratory Key">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>misc</Sheet>
+            <Index>0x2f</Index>
+        </Texture>
+        <Tier>Epic</Tier>
+        <SlotType>10</SlotType>
+        <Activate objType="0x070d">OpenPortal</Activate>
+        <Consumable />
+        <Untradable />
+        <BagType>1</BagType>
+    </Object>
+    <Object type="0xb3a" id="Galactic Leather">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x12</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="27" amount="15">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="5">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb3b" id="Neon Nullifier">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x14</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="27" amount="18">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="15">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb3c" id="Fiery Coat">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x13</Index>
+        </Texture>
+        <SlotType>6</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="10">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb3d" id="Starfall Cage">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xe4</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <TierReq>2</TierReq>
+        <Tier>Epic</Tier>
+        <Activate totalDamage="1500" duration="3" radius="6" objType="0x1008">Cage</Activate>
+        <Cooldown>1.5</Cooldown>
+        <MpCost>45</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb3e" id="Overseer Captivator">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xe3</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <TierReq>2</TierReq>
+        <Tier>Epic</Tier>
+        <Activate totalDamage="600" duration="9" radius="11" objType="0x1007">Cage</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>55</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb3f" id="Bottled Tornado">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xe2</Index>
+        </Texture>
+        <SlotType>19</SlotType>
+        <TierReq>2</TierReq>
+        <Tier>Legendary</Tier>
+        <Activate totalDamage="1700" duration="5" radius="11" objType="0x1009">Cage</Activate>
+        <Activate amount="70">Heal</Activate>
+        <Cooldown>3</Cooldown>
+        <MpCost>60</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb40" id="Ignition Catalyst">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf6</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="20" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="30" amount="6">IncrementStat</ActivateOnEquip>
+        <Thorns>400</Thorns>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb41" id="Crystal of Clarity">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf7</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="11">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="27" amount="11">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb42" id="Earth's Wraps">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf8</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="18">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="27" amount="6">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="0" amount="140">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb43" id="Wind's Embrace">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xf9</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="22" amount="18">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="22">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="140">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb44" id="Amulet of the Night">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xfa</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="180">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="27" amount="10">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb46" id="Terran Waraxe">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x04</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>0.7</RateOfFire>
+        <Projectile>
+            <ObjectId>Earth Sword Proj</ObjectId>
+            <Speed>80</Speed>
+            <LifetimeMS>620</LifetimeMS>
+            <Damage>750</Damage>
+        </Projectile>
+        <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb47" id="Thousand Slash">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x05</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.2</RateOfFire>
+        <Projectile>
+            <ObjectId>Air Sword Proj</ObjectId>
+            <Speed>120</Speed>
+            <LifetimeMS>400</LifetimeMS>
+            <Damage>330</Damage>
+        </Projectile>
+        <NumProjectiles>2</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <ActivateOnEquip stat="22" amount="4">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb48" id="Phasesaber">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x06</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Neon Sword Shot</ObjectId>
+            <Speed>100</Speed>
+            <LifetimeMS>300</LifetimeMS>
+            <Damage>720</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb49" id="Alien Cleaver">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x07</Index>
+        </Texture>
+        <SlotType>1</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>0.9</RateOfFire>
+        <Projectile>
+            <ObjectId>AC Proj</ObjectId>
+            <Speed>90</Speed>
+            <LifetimeMS>400</LifetimeMS>
+            <Damage>450</Damage>
+            <ArmorPiercing/>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb4a" id="Galactic Plate">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x23</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="26" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="12">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb4b" id="Cosmic Pendant">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xfb</Index>
+        </Texture>
+        <SlotType>9</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="3" amount="230">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="9">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb65" id="Stoneplate Ward">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x24</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="30">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="27" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="-10">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb66" id="Neon Amplifier">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x25</Index>
+        </Texture>
+        <SlotType>7</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="21" amount="9">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="22" amount="13">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb67" id="Infernal Spear">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x44</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.4</RateOfFire>
+        <Projectile>
+            <ObjectId>Infernal Spear Proj</ObjectId>
+            <Speed>160</Speed>
+            <LifetimeMS>600</LifetimeMS>
+            <Damage>500</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb4c" id="Pressure Blaster">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x45</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.2</RateOfFire>
+        <Projectile>
+            <ObjectId>Air Bow Proj</ObjectId>
+            <Speed>160</Speed>
+            <LifetimeMS>450</LifetimeMS>
+            <Damage>250</Damage>
+        </Projectile>
+        <NumProjectiles>3</NumProjectiles>
+        <ArcGap>4</ArcGap>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb4d" id="Hexcore Ballista">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x46</Index>
+        </Texture>
+        <SlotType>3</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>0.6</RateOfFire>
+        <Projectile>
+            <ObjectId>Neon Bow Shot</ObjectId>
+            <Speed>80</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <Damage>1050</Damage>
+        </Projectile>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb4e" id="Plague Cane">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x53</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.1</RateOfFire>
+        <Projectile>
+            <ObjectId>Lab Staff Proj</ObjectId>
+            <Speed>120</Speed>
+            <LifetimeMS>700</LifetimeMS>
+            <Damage>280</Damage>
+            <Amplitude>0.3</Amplitude>
+            <Frequency>1.2</Frequency>
+        </Projectile>
+        <NumProjectiles>2</NumProjectiles>
+        <ArcGap>6</ArcGap>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb4f" id="Crystal Caster">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x54</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Water Staff Proj</ObjectId>
+            <Speed>190</Speed>
+            <LifetimeMS>350</LifetimeMS>
+            <Damage>550</Damage>
+        </Projectile>
+        <ActivateOnEquip stat="27" amount="11">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb50" id="Tornado Wand">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x55</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1.4</RateOfFire>
+        <Projectile>
+            <ObjectId>Air Staff Proj</ObjectId>
+            <Speed>130</Speed>
+            <LifetimeMS>550</LifetimeMS>
+            <Damage>400</Damage>
+            <MultiHit/>
+        </Projectile>
+        <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb51" id="Carbon Plasmifier">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x56</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>0.7</RateOfFire>
+        <Projectile>
+            <ObjectId>Carbon Staff Shot</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>420</LifetimeMS>
+            <Damage>1300</Damage>
+        </Projectile>
+        <ActivateOnEquip stat="27" amount="15">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb52" id="Galactic Garbs">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x63</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="28" amount="22">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="6">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb53" id="Coat of Clarity">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x64</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="27" amount="15">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="26" amount="15">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="150">IncrementStat</ActivateOnEquip>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb54" id="Nanotech Cloth">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x65</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="0" amount="100">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="3" amount="100">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="20" amount="6">IncrementStat</ActivateOnEquip>
+        <ManaShield>15</ManaShield>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb55" id="Fiery Flask">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x73</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="20" amount="15" duration="5.5">StatBoostSelf</Activate>
+        <Activate stat="27" amount="15" duration="5.5">StatBoostSelf</Activate>
+        <Activate duration="5.5" amount="1.1">DamageMultiplier</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>65</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb56" id="Potion of Far-Sight">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x74</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="26" amount="50" duration="6.5">StatBoostSelf</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb57" id="Milky Mixture">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x75</Index>
+        </Texture>
+        <SlotType>4</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="21" amount="15" duration="5.5">StatBoostSelf</Activate>
+        <Activate stat="0" amount="75" duration="5.5">StatBoostSelf</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb58" id="Ruby Splinterstone">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x83</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="350" radius="5" totalDamage="250">Bloodstone</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>150</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb59" id="Eye of the Storm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x84</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="30" radius="7" totalDamage="90">Bloodstone</Activate>
+        <Activate duration="6.5" amount="0.85">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <HpCost>90</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb5a" id="Galaxy Gem">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x85</Index>
+        </Texture>
+        <SlotType>5</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="9.5" amount="0.75">DamageMultiplier</Activate>
+        <Activate duration="9.5" amount="0.33">HitMultiplier</Activate>
+        <Cooldown>9</Cooldown>
+        <HpCost>250</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb5b" id="Lightning Pillar">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x93</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <Activate targetPlayers="true" effect="+15 STA, +15 LCK" amount="3.5" radius="7" duration="9" objType="0x138">Totem</Activate>
+        <Activate duration="11" amount="1.15">DamageMultiplier</Activate>
+        <Cooldown>12.5</Cooldown>
+        <MpCost>145</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb5c" id="Extraterrestrial Communicator">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x94</Index>
+        </Texture>
+        <SlotType>8</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate targetPlayers="true" effect="+35 SGT" amount="3.5" radius="7" duration="4.5" objType="0x139">Totem</Activate>
+        <Cooldown>4</Cooldown>
+        <MpCost>75</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb5d" id="Gaian Helmet">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xb1</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="6" amount="1.15">DamageMultiplier</Activate>
+        <Activate duration="6" amount="0.85">HitMultiplier</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>105</MpCost>
+        <Thorns>300</Thorns>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb5e" id="Defense Matrix">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xb2</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="5" amount="0.9">DamageMultiplier</Activate>
+        <Activate duration="5" amount="0.76">HitMultiplier</Activate>
+        <Cooldown>5.8</Cooldown>
+        <MpCost>85</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb5f" id="Spaceshard Helm">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xb3</Index>
+        </Texture>
+        <SlotType>16</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="8" amount="1.1">DamageMultiplier</Activate>
+        <Activate stat="26" amount="25" duration="8">StatBoostSelf</Activate>
+        <Cooldown>6</Cooldown>
+        <MpCost>55</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb60" id="Aero Aegis">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xc2</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <Activate stat="22" amount="12" duration="7">StatBoostSelf</Activate>
+        <Activate duration="7" amount="0.84">HitMultiplier</Activate>
+        <Activate duration="7" effect="Targeted">ConditionEffectSelf</Activate>
+        <ActivateOnEquip stat="22" amount="12">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+        <Cooldown>7</Cooldown>
+        <MpCost>70</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb61" id="Photonic Protection">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xc3</Index>
+        </Texture>
+        <SlotType>12</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate duration="5" amount="0.55">HitMultiplier</Activate>
+        <Activate duration="5" effect="Slowed">ConditionEffectSelf</Activate>
+        <Cooldown>5</Cooldown>
+        <MpCost>65</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb62" id="Hurricane's Eye">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xd3</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="1.5">Clock</Activate>
+        <Cooldown>2</Cooldown>
+        <HpCost>25</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb63" id="Amethyst Dilator">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xd4</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Legendary</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="9">Clock</Activate>
+        <Activate effect="Invulnerable" duration="2">ConditionEffectSelf</Activate>
+        <Cooldown>4</Cooldown>
+        <MpCost>99</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb64" id="Quantum Slipstream">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xd5</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Activate amount="3.5">Clock</Activate>
+        <Activate effect="Speedy" duration="2">ConditionEffectSelf</Activate>
+        <Cooldown>4</Cooldown>
+        <MpCost>85</MpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb68" id="Archaic Rewinder">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0xd6</Index>
+        </Texture>
+        <SlotType>15</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <Sound>spell/clock</Sound>
+        <Activate amount="2">Clock</Activate>
+        <Activate effect="Damaging" duration="4">ConditionEffectSelf</Activate>
+        <Cooldown>4</Cooldown>
+        <HpCost>155</HpCost>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb69" id="Broken Branch">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x57</Index>
+        </Texture>
+        <SlotType>17</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <RateOfFire>1</RateOfFire>
+        <Projectile>
+            <ObjectId>Wyrm Red Blast</ObjectId>
+            <Speed>150</Speed>
+            <LifetimeMS>420</LifetimeMS>
+            <Damage>1200</Damage>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.9</Frequency>
+        </Projectile>
+        <NumProjectiles>2</NumProjectiles>
+        <ArcGap>170</ArcGap>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb6a" id="Bonesilk Mantle">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>items</Sheet>
+            <Index>0x66</Index>
+        </Texture>
+        <SlotType>14</SlotType>
+        <Tier>Epic</Tier>
+        <TierReq>2</TierReq>
+        <ActivateOnEquip stat="3" amount="250">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="21" amount="13">IncrementStat</ActivateOnEquip>
+        <ActivateOnEquip stat="28" amount="9">IncrementStat</ActivateOnEquip>
+        <ManaShield>15</ManaShield>
+        <BagType>3</BagType>
+    </Object>
+    <Object type="0xb6b" id="Beginner Scepter">
+        <Class>Equipment</Class>
+        <Item />
+        <Texture>
+            <Sheet>tieredItems</Sheet>
+            <Index>0xa0</Index>
+        </Texture>
+        <SlotType>23</SlotType>
+        <Tier>Starter</Tier>
+        <Scepter>
+            <Color>0xFFFFFF</Color>
+            <Range>6</Range>
+            <TickMS>300</TickMS>
+            <Damage>330</Damage>
+            <Drain stat="4">20</Drain>
+        </Scepter>
+        <BagType>1</BagType>
+    </Object>
+</Objects>

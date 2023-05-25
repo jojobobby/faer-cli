@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object type="0x0300" id="Pathfinder">
+    <Class>Player</Class>
+    <Description>
+      The Pathfinder is a balanced bowman who aims to cover all bases.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>3, 4, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa2a, 0xa4a, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x0307" id="Blood Mage">
+    <Class>Player</Class>
+    <Description>
+      The Blood Mage is a ranged damage dealer who uses his health to cast spells.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>17, 5, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa35, 0xa55, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x030e" id="Warden">
+    <Class>Player</Class>
+    <Description>
+      The Warden is a support class who provides utility for the group.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>2</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>3, 8, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa2a, 0xa60, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x0310" id="Warlock">
+    <Class>Player</Class>
+    <Description>
+      The Warlock is an ability-less damage dealer with high base stats.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>3</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>17, 14, 9, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa35, 0xa6b, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x031d" id="Berserker">
+    <Class>Player</Class>
+    <Description>
+      The Berserker is a sword user who gives up survivability for damage.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>4</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>1, 16, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa00, 0xa76, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x031e" id="Juggernaut">
+    <Class>Player</Class>
+    <Description>
+      The Juggernaut is a sword user who specializes in defense.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>5</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>1, 12, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa00, 0xa81, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x031f" id="Chronomancer">
+    <Class>Player</Class>
+    <Description>
+      The Chronomancer is a staff class who is able to turn back time.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>6</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>17, 15, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa35, 0xa8b, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x0320" id="Monk">
+    <Class>Player</Class>
+    <Description>
+      The Monk is a support class who provides protection for the group.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>9</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>17, 23, 14, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa35, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="65" t1="60">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x0321" id="Enigma">
+    <Class>Player</Class>
+    <Description>
+      The Enigma is proficient with all styles but their base stats are low.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>8</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>22, 21, 20, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa35, 0xa4a, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+  <Object type="0x0322" id="Plaguebearer">
+    <Class>Player</Class>
+    <Description>
+      The Plaguebearer is a bow class capable of debilitating enemies.
+    </Description>
+    <AnimatedTexture>
+      <Sheet>players</Sheet>
+      <Index>10</Index>
+    </AnimatedTexture>
+    <Player />
+    <SlotTypes>3, 24, 6, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+    <Equipment>0xa2a, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1</Equipment>
+    <Health t2="740" t1="720">695</Health>
+    <Mana t2="240" t1="225">200</Mana>
+    <Strength t2="75" t1="70">65</Strength>
+    <Wit t2="75" t1="70">65</Wit>
+    <Defense t2="25" t1="20">15</Defense>
+    <Resistance t2="25" t1="20">15</Resistance>
+    <Speed t2="55" t1="50">45</Speed>
+    <Haste t2="35" t1="30">25</Haste>
+    <Stamina t2="60" t1="55">50</Stamina>
+    <Intelligence t2="60" t1="55">50</Intelligence>
+    <Piercing t2="35" t1="30">25</Piercing>
+    <Penetration t2="55" t1="50">45</Penetration>
+    <Tenacity t2="55" t1="50">45</Tenacity>
+  </Object>
+</Objects>

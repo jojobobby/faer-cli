@@ -1,0 +1,861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+    <Object type="0x0735" id="The Mothership">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>0</Index>
+        </AnimatedTexture>
+        <Health>225000</Health>
+        <Defense>65</Defense>
+        <Projectile id="0">
+            <ObjectId>UFO Red Swirl</ObjectId>
+            <Damage>85</Damage>
+            <Speed>70</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1700</LifetimeMS>
+            <Amplitude>1</Amplitude>
+            <Frequency>0.33</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>UFO Red Blast</ObjectId>
+            <Damage>105</Damage>
+            <Speed>100</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1600</LifetimeMS>
+            <Amplitude>2</Amplitude>
+            <Frequency>0.33</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="2">
+            <ObjectId>UFO Blue Ball</ObjectId>
+            <Damage>105</Damage>
+            <Speed>100</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1600</LifetimeMS>
+            <Amplitude>1</Amplitude>
+            <Frequency>0.45</Frequency>
+        </Projectile>
+        <Projectile id="3">
+            <ObjectId>UFO Blue Blast</ObjectId>
+            <Damage>105</Damage>
+            <Speed>120</Speed>
+            <Size>150</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>1</Amplitude>
+            <Frequency>0.45</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <PermaMiniMap/>
+        <Enemy/>
+    </Object>
+    <Object type="0x0736" id="Eldritch Horror">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>10</Index>
+        </AnimatedTexture>
+        <Health>250000</Health>
+        <Defense>75</Defense>
+        <Projectile id="0">
+            <ObjectId>Horror Blast</ObjectId>
+            <Damage>155</Damage>
+            <Speed>70</Speed>
+            <Size>160</Size>
+            <LifetimeMS>1700</LifetimeMS>
+            <Amplitude>0.6</Amplitude>
+            <Frequency>0.6</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Horror Wave</ObjectId>
+            <Damage>125</Damage>
+            <Speed>100</Speed>
+            <Size>140</Size>
+            <LifetimeMS>1600</LifetimeMS>
+            <Amplitude>0.3</Amplitude>
+            <Frequency>0.6</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <PermaMiniMap/>
+        <Enemy/>
+    </Object>
+    <Object type="0x0737" id="The Amalgam">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>2</Index>
+        </AnimatedTexture>
+        <Health>250000</Health>
+        <Defense>70</Defense>
+        <Projectile id="0">
+            <ObjectId>Lab Boss Blast 1</ObjectId>
+            <Damage>175</Damage>
+            <Speed>70</Speed>
+            <Size>150</Size>
+            <LifetimeMS>2800</LifetimeMS>
+            <Amplitude>0.3</Amplitude>
+            <Frequency>0.6</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Lab Boss Blast 2</ObjectId>
+            <Damage>95</Damage>
+            <Speed>110</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1700</LifetimeMS>
+            <Amplitude>0.7</Amplitude>
+            <Frequency>0.6</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0738" id="Red UFO">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>0</Index>
+        </AnimatedTexture>
+        <Health>11000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>UFO Red Swirl</ObjectId>
+            <Damage>55</Damage>
+            <Speed>100</Speed>
+            <Size>120</Size>
+            <LifetimeMS>500</LifetimeMS>
+            <Amplitude>1</Amplitude>
+            <Frequency>1.4</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>UFO Red Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>110</Speed>
+            <Size>120</Size>
+            <LifetimeMS>700</LifetimeMS>
+            <Amplitude>0.7</Amplitude>
+            <Frequency>1.4</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>120</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0739" id="Blue UFO">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>1</Index>
+        </AnimatedTexture>
+        <Health>14000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>UFO Blue Ball</ObjectId>
+            <Damage>75</Damage>
+            <Speed>100</Speed>
+            <Size>120</Size>
+            <LifetimeMS>700</LifetimeMS>
+            <Magnitude>1.1</Magnitude>
+            <Parametric/>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>UFO Blue Blast</ObjectId>
+            <Damage>55</Damage>
+            <Speed>110</Speed>
+            <Size>120</Size>
+            <LifetimeMS>700</LifetimeMS>
+            <Amplitude>0.7</Amplitude>
+            <Frequency>1.4</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>130</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x073a" id="Star Mother">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>2</Index>
+        </AnimatedTexture>
+        <Health>20000</Health>
+        <Defense>55</Defense>
+        <Size>130</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x073b" id="Star Child">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>2</Index>
+        </AnimatedTexture>
+        <Health>2000</Health>
+        <Defense>35</Defense>
+        <Projectile id="0">
+            <ObjectId>Star Shot</ObjectId>
+            <Damage>55</Damage>
+            <Speed>110</Speed>
+            <Size>120</Size>
+            <LifetimeMS>700</LifetimeMS>
+            <Amplitude>0.33</Amplitude>
+            <Frequency>1.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x073c" id="Cosmic Cloud">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>3</Index>
+        </AnimatedTexture>
+        <Health>12000</Health>
+        <Defense>40</Defense>
+        <Projectile id="0">
+            <ObjectId>Bone Blast</ObjectId>
+            <Damage>125</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>700</LifetimeMS>
+            <Amplitude>0.6</Amplitude>
+            <Frequency>1.1</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>130</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x073d" id="Lab Spider Egg">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>4</Index>
+        </AnimatedTexture>
+        <Health>1000</Health>
+        <Defense>0</Defense>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x073e" id="Mutated Spider">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>5</Index>
+        </AnimatedTexture>
+        <Health>7500</Health>
+        <Defense>40</Defense>
+        <Projectile id="0">
+            <ObjectId>Lab Spider Shot</ObjectId>
+            <Damage>75</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>400</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>1.8</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x073f" id="Amalgam's Eye">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>7</Index>
+        </AnimatedTexture>
+        <Health>5000</Health>
+        <Defense>40</Defense>
+        <Projectile id="0">
+            <ObjectId>Lab Eye Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>130</Speed>
+            <Size>110</Size>
+            <LifetimeMS>800</LifetimeMS>
+            <ConditionEffect duration="2">Slowed</ConditionEffect>
+            <MultiHit/>
+        </Projectile>
+        <Size>140</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0740" id="Crazed Cultist">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>6</Index>
+        </AnimatedTexture>
+        <Health>15000</Health>
+        <Defense>40</Defense>
+        <Projectile id="0">
+            <ObjectId>Lab Cultist Ball</ObjectId>
+            <Damage>75</Damage>
+            <Speed>60</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Magnitude>1.1</Magnitude>
+            <Parametric/>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Lab Cultist Blast</ObjectId>
+            <Damage>125</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>1.8</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0741" id="Martian Warrior">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>8</Index>
+        </AnimatedTexture>
+        <Health>20000</Health>
+        <Defense>55</Defense>
+        <Projectile id="0">
+            <ObjectId>Martian Warrior Wave</ObjectId>
+            <Damage>145</Damage>
+            <Speed>80</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Martian Warrior Blast</ObjectId>
+            <Damage>115</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>600</LifetimeMS>
+            <Amplitude>0.5</Amplitude>
+            <Frequency>0.6</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0742" id="Martian Gunner">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>9</Index>
+        </AnimatedTexture>
+        <Health>20000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>Martian Gunner Blast</ObjectId>
+            <Damage>100</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.6</Amplitude>
+            <Frequency>1.1</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Martian Gunner Shot</ObjectId>
+            <Damage>125</Damage>
+            <Speed>80</Speed>
+            <Size>110</Size>
+            <LifetimeMS>600</LifetimeMS>
+            <Amplitude>0.3</Amplitude>
+            <Frequency>1.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0743" id="Martian Turret">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>10</Index>
+        </AnimatedTexture>
+        <Health>30000</Health>
+        <Defense>50</Defense>
+        <Projectile id="0">
+            <ObjectId>Martian Turret Wave</ObjectId>
+            <Damage>100</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.6</Amplitude>
+            <Frequency>0.3</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Martian Turret Shot</ObjectId>
+            <Damage>125</Damage>
+            <Speed>80</Speed>
+            <Size>110</Size>
+            <LifetimeMS>600</LifetimeMS>
+            <Amplitude>0.3</Amplitude>
+            <Frequency>1.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0744" id="Martian Rogue">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>11</Index>
+        </AnimatedTexture>
+        <Health>15000</Health>
+        <Defense>40</Defense>
+        <Projectile id="0">
+            <ObjectId>Martian Rogue Blast</ObjectId>
+            <Damage>100</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.4</Amplitude>
+            <Frequency>1.2</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0745" id="Sanctum Controller">
+        <Class>Character</Class>
+        <Texture>
+            <Sheet>invisible</Sheet>
+            <Index>0</Index>
+        </Texture>
+        <Size>0</Size>
+        <NoMiniMap />
+    </Object>
+    <Object type="0x0746" id="Fire Disciple">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>12</Index>
+        </AnimatedTexture>
+        <Health>15000</Health>
+        <Defense>35</Defense>
+        <Projectile id="0">
+            <ObjectId>Fire Elemental Blast</ObjectId>
+            <Damage>100</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0747" id="Air Disciple">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>13</Index>
+        </AnimatedTexture>
+        <Health>15000</Health>
+        <Defense>35</Defense>
+        <Projectile id="0">
+            <ObjectId>Air Elemental Blast</ObjectId>
+            <Damage>100</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0748" id="Water Disciple">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>14</Index>
+        </AnimatedTexture>
+        <Health>15000</Health>
+        <Defense>35</Defense>
+        <Projectile id="0">
+            <ObjectId>Water Elemental Blast</ObjectId>
+            <Damage>100</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0749" id="Earth Disciple">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>15</Index>
+        </AnimatedTexture>
+        <Health>15000</Health>
+        <Defense>35</Defense>
+        <Projectile id="0">
+            <ObjectId>Earth Elemental Blast</ObjectId>
+            <Damage>100</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x074a" id="Earth Golem">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>16</Index>
+        </AnimatedTexture>
+        <Health>25000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>Earth Elemental Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.9</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x074b" id="Fire Golem">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>17</Index>
+        </AnimatedTexture>
+        <Health>25000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>Fire Elemental Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.9</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x074c" id="Water Golem">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>18</Index>
+        </AnimatedTexture>
+        <Health>25000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>Water Elemental Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.9</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x074d" id="Air Golem">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm</Sheet>
+            <Index>19</Index>
+        </AnimatedTexture>
+        <Health>25000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>Air Elemental Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>110</Speed>
+            <Size>110</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.9</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>110</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x074e" id="Earth Elemental">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>6</Index>
+        </AnimatedTexture>
+        <Health>275000</Health>
+        <Defense>75</Defense>
+        <Projectile id="0">
+            <ObjectId>Earth Elemental Wave</ObjectId>
+            <Damage>125</Damage>
+            <Speed>95</Speed>
+            <Size>120</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Earth Elemental Blast</ObjectId>
+            <Damage>175</Damage>
+            <Speed>140</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x074f" id="Fire Elemental">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>7</Index>
+        </AnimatedTexture>
+        <Health>275000</Health>
+        <Defense>75</Defense>
+        <Projectile id="0">
+            <ObjectId>Fire Elemental Shot 1</ObjectId>
+            <Damage>125</Damage>
+            <Speed>95</Speed>
+            <Size>120</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Fire Elemental Shot 2</ObjectId>
+            <Damage>175</Damage>
+            <Speed>140</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0750" id="Water Elemental">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>8</Index>
+        </AnimatedTexture>
+        <Health>275000</Health>
+        <Defense>75</Defense>
+        <Projectile id="0">
+            <ObjectId>Water Elemental Shot 1</ObjectId>
+            <Damage>125</Damage>
+            <Speed>95</Speed>
+            <Size>120</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Water Elemental Shot 2</ObjectId>
+            <Damage>175</Damage>
+            <Speed>140</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0751" id="Air Elemental">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>9</Index>
+        </AnimatedTexture>
+        <Health>275000</Health>
+        <Defense>75</Defense>
+        <Projectile id="0">
+            <ObjectId>Air Elemental Shot</ObjectId>
+            <Damage>125</Damage>
+            <Speed>95</Speed>
+            <Size>120</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Air Elemental Blast</ObjectId>
+            <Damage>175</Damage>
+            <Speed>140</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <Enemy/>
+    </Object>
+    <Object type="0x0752" id="Bone Wyrm">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>1</Index>
+        </AnimatedTexture>
+        <Health>200000</Health>
+        <Defense>55</Defense>
+        <Projectile id="0">
+            <ObjectId>Wyrm Red Blast</ObjectId>
+            <Damage>95</Damage>
+            <Speed>95</Speed>
+            <Size>120</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <Amplitude>0.8</Amplitude>
+            <Frequency>0.8</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Wyrm White Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>70</Speed>
+            <Size>150</Size>
+            <LifetimeMS>2600</LifetimeMS>
+            <Amplitude>0.6</Amplitude>
+            <Frequency>1</Frequency>
+            <Boomerang/>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <PermaMiniMap/>
+        <Enemy/>
+    </Object>
+    <Object type="0x0753" id="Carbon Sentry">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>3</Index>
+        </AnimatedTexture>
+        <Health>250000</Health>
+        <Defense>65</Defense>
+        <Projectile id="0">
+            <ObjectId>Sentry Blue Shot</ObjectId>
+            <Damage>125</Damage>
+            <Speed>115</Speed>
+            <Size>120</Size>
+            <LifetimeMS>2600</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.9</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Sentry Blue Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>70</Speed>
+            <Size>150</Size>
+            <LifetimeMS>2600</LifetimeMS>
+            <Amplitude>0.7</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="2">
+            <ObjectId>Sentry Red Orb</ObjectId>
+            <Damage>145</Damage>
+            <Speed>115</Speed>
+            <Size>120</Size>
+            <LifetimeMS>2600</LifetimeMS>
+            <Amplitude>0.9</Amplitude>
+            <Frequency>0.9</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="3">
+            <ObjectId>Sentry Red Blast</ObjectId>
+            <Damage>105</Damage>
+            <Speed>70</Speed>
+            <Size>150</Size>
+            <LifetimeMS>2600</LifetimeMS>
+            <Amplitude>0.7</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <PermaMiniMap/>
+        <Enemy/>
+    </Object>
+    <Object type="0x0754" id="Martian Defender">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>4</Index>
+        </AnimatedTexture>
+        <Health>250000</Health>
+        <Defense>55</Defense>
+        <Projectile id="0">
+            <ObjectId>Defender Wave</ObjectId>
+            <Damage>145</Damage>
+            <Speed>85</Speed>
+            <Size>120</Size>
+            <LifetimeMS>2800</LifetimeMS>
+            <ConditionEffect duration="3">Weak</ConditionEffect>
+            <Boomerang/>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Defender Blast</ObjectId>
+            <Damage>75</Damage>
+            <Speed>130</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <Amplitude>0.7</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <PermaMiniMap/>
+        <Enemy/>
+    </Object>
+    <Object type="0x0755" id="The Overseer">
+        <Class>Character</Class>
+        <AnimatedTexture>
+            <Sheet>midrealm16</Sheet>
+            <Index>5</Index>
+        </AnimatedTexture>
+        <Health>250000</Health>
+        <Defense>45</Defense>
+        <Projectile id="0">
+            <ObjectId>Overseer Chakram</ObjectId>
+            <Damage>115</Damage>
+            <Speed>85</Speed>
+            <Size>120</Size>
+            <LifetimeMS>900</LifetimeMS>
+            <Magnitude>3</Magnitude>
+            <Parametric/>
+            <MultiHit/>
+        </Projectile>
+        <Projectile id="1">
+            <ObjectId>Overseer Blast</ObjectId>
+            <Damage>95</Damage>
+            <Speed>130</Speed>
+            <Size>150</Size>
+            <LifetimeMS>1300</LifetimeMS>
+            <Amplitude>0.7</Amplitude>
+            <Frequency>0.7</Frequency>
+            <MultiHit/>
+        </Projectile>
+        <Size>170</Size>
+        <PermaMiniMap/>
+        <Enemy/>
+    </Object>
+</Objects>

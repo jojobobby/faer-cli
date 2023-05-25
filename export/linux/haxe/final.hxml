@@ -1,0 +1,35 @@
+-main ApplicationMain 
+--macro openfl.utils._internal.ExtraParamsMacro.include()
+-cp /home/a/haxe/openfl/9,2,1/src
+-D openfl=9.2.1
+--macro lime._internal.macros.DefineMacro.run()
+-cp /home/a/haxe/lime/8,0,0/src
+-D lime=8.0.1
+-cp /home/a/haxe/hxdiscord_rpc/git
+-D hxdiscord_rpc=1.0.5
+-cp /home/a/haxe/hxcpp/git
+-D hxcpp=4.2.0
+-cp src
+-D lime-harfbuzz
+-D lime-openal
+-D analyzer-optimize
+-D tools=8.0.1
+-D lime-cairo
+-D lime-opengl
+-D no-compilation
+-D native
+-D lime-curl
+-D lime-native
+-D lime-vorbis
+-D openfl-native
+-D lime-cffi
+-D linux
+-D desktop
+--remap flash:openfl
+-dce full
+--connect
+6000
+-cp export/linux/haxe
+-cpp export/linux/obj/
+--macro keep("Main")
+-D final

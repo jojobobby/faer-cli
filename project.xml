@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Faer" package="" version="1.0.0" company="Faer" />
+	<app main="Main" path="export" file="Client" />
+	<window background="#000000" hardware="true" allow-high-dpi="true" width="1280" height="720" resizable="true" fps="1000" vsync="false" fullscreen="false" antialiasing="0"/>
+	<!--<define name="telemetry" />-->
+	<!--<define name="log_packets" />-->
+	<!--<define name="tracing" />-->
+	<!--<define name="print_atlas" />-->
+	<!-- <define name="disable_rpc" /> -->
+	<source path="src" />
+	<haxelib name="openfl" />
+	<!-- haxelib git hxdiscord_rpc https://github.com/MAJigsaw77/hxdiscord_rpc.git -->
+	<haxelib name="hxdiscord_rpc" unless="disable_rpc"/>
+	<haxelib name="hxcpp-debug-server" if="debug" />
+	<haxedef name="HXCPP_STACK_TRACE" if="debug" />
+	<haxedef name="analyzer-optimize" />
+	<haxedef name="HXCPP_MINGW" if="windows" />
+	<haxedef name="no_shared_libs" if="windows" />
+	<haxedef name="toolchain" value="mingw" if="windows" />
+	<icon path="logo.png" />
+	<haxeflag name="-dce" value="full" />
+	<assets path="assets" />
+</project>
+ 
